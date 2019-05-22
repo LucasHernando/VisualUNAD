@@ -198,5 +198,14 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ProjectReference Include="..\Libreria\Libreria.vbproj">
+      <Project>{2f530bb8-d25f-4359-9096-96da176b94a6}</Project>
+      <Name>Libreria</Name>
+    </ProjectReference>
+  </ItemGroup>
+>>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

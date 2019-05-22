@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Imports MySql.Data.MySqlClient
+=======
+﻿Imports Libreria.Libreria
+>>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
 
 
 Public Class Form4
@@ -12,6 +16,7 @@ Public Class Form4
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
+<<<<<<< HEAD
 
 
         If TextBox8.Text = TextBox9.Text Then
@@ -32,6 +37,19 @@ Public Class Form4
 
 
 
+=======
+        Dim tra As New Libreria.Libreria()
+
+        Dim telefono As Integer
+        Dim blnTel As Boolean = Integer.TryParse(TextBox1.Text, telefono)
+
+        Dim cedula As Integer
+        Dim blnCel As Boolean = Integer.TryParse(TextBox1.Text, cedula)
+
+
+        tra.IngresoPersona(ComboBox2.Text, cedula, TextBox2.Text, TextBox3.Text, TextBox4.Text,
+                           TextBox5.Text, telefono, TextBox7.Text, TextBox8.Text, TextBox9.Text)
+>>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
     End Sub
 
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -41,6 +59,7 @@ Public Class Form4
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Close()
     End Sub
+<<<<<<< HEAD
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Dim PersonaBusca As New Persona()
@@ -103,4 +122,6 @@ Public Class Form4
     Private Sub TextBox9_TextChanged(sender As Object, e As EventArgs) Handles TextBox9.TextChanged
 
     End Sub
+=======
+>>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
 End Class
