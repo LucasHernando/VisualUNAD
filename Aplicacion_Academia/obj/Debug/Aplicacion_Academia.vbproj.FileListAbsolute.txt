@@ -152,7 +152,6 @@ C:\Users\PC-DESARROLLO5\Documents\VisualUNAD-master\Aplicacion_Academia\Aplicaci
 C:\Users\PC-DESARROLLO5\Documents\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\PC-DESARROLLO5\Documents\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\bin\Debug\Libreria.dll
 C:\Users\PC-DESARROLLO5\Documents\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\bin\Debug\Libreria.pdb
-<<<<<<< HEAD
 C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.vbprojAssemblyReference.cache
 C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\obj\Debug\Interop.AcroPDFLib.dll
 C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\obj\Debug\Interop.WMPLib.dll
@@ -183,5 +182,3 @@ C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicac
 C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\bin\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\lucas\OneDrive\Escritorio\VisualUNAD-master\Aplicacion_Academia\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.vbproj.CopyComplete
-=======
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d

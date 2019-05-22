@@ -24,11 +24,8 @@ Partial Class Form4
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.Panel1 = New System.Windows.Forms.Panel()
-<<<<<<< HEAD
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
-=======
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -67,11 +64,8 @@ Partial Class Form4
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Silver
-<<<<<<< HEAD
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Button5)
-=======
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
         Me.Panel1.Controls.Add(Me.Label15)
         Me.Panel1.Controls.Add(Me.Label14)
         Me.Panel1.Controls.Add(Me.Label13)
@@ -106,7 +100,6 @@ Partial Class Form4
         Me.Panel1.Size = New System.Drawing.Size(770, 510)
         Me.Panel1.TabIndex = 0
         '
-<<<<<<< HEAD
         'Label6
         '
         Me.Label6.AutoSize = True
@@ -128,8 +121,6 @@ Partial Class Form4
         Me.Button5.TabIndex = 30
         Me.Button5.UseVisualStyleBackColor = True
         '
-=======
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
         'Label15
         '
         Me.Label15.AutoSize = True
@@ -198,11 +189,7 @@ Partial Class Form4
         '
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-<<<<<<< HEAD
         Me.Button2.Location = New System.Drawing.Point(587, 110)
-=======
-        Me.Button2.Location = New System.Drawing.Point(587, 114)
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(56, 41)
         Me.Button2.TabIndex = 23
@@ -233,10 +220,7 @@ Partial Class Form4
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox9.Location = New System.Drawing.Point(388, 360)
         Me.TextBox9.Name = "TextBox9"
-<<<<<<< HEAD
         Me.TextBox9.PasswordChar = Global.Microsoft.VisualBasic.ChrW(46)
-=======
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
         Me.TextBox9.Size = New System.Drawing.Size(163, 25)
         Me.TextBox9.TabIndex = 20
         '
@@ -245,10 +229,7 @@ Partial Class Form4
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.Location = New System.Drawing.Point(388, 327)
         Me.TextBox8.Name = "TextBox8"
-<<<<<<< HEAD
         Me.TextBox8.PasswordChar = Global.Microsoft.VisualBasic.ChrW(46)
-=======
->>>>>>> 2001f5f3988032497ea1fc0cafa26b7536a85e5d
         Me.TextBox8.Size = New System.Drawing.Size(163, 25)
         Me.TextBox8.TabIndex = 18
         '
