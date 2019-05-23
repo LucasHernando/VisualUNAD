@@ -17,7 +17,7 @@ Public Class Form4
         If TextBox8.Text = TextBox9.Text Then
 
             Dim telefono As Integer
-            Dim blnTel As Boolean = Integer.TryParse(TextBox1.Text, telefono)
+            Dim blnTel As Boolean = Integer.TryParse(TextBox6.Text, telefono)
 
             Dim cedula As Integer
             Dim blnCel As Boolean = Integer.TryParse(TextBox1.Text, cedula)
@@ -26,6 +26,15 @@ Public Class Form4
             Dim Persona As New Persona()
             Persona.IngresoPersona(ComboBox2.Text, cedula, TextBox2.Text, TextBox3.Text, TextBox4.Text,
                                TextBox5.Text, telefono, TextBox7.Text, TextBox8.Text, TextBox9.Text)
+
+            ComboBox2.Enabled = False
+            TextBox1.Enabled = False
+            TextBox2.Enabled = False
+            TextBox3.Enabled = False
+            TextBox4.Enabled = False
+            TextBox5.Enabled = False
+            TextBox8.Enabled = False
+            TextBox9.Enabled = False
         Else
             MessageBox.Show("La constraseñas no conciden, intente de nuevo")
         End If
@@ -54,8 +63,18 @@ Public Class Form4
         Dim Base As String = "curso_unad"
         Dim Contraseña As String = ""
 
+        ComboBox2.Enabled = False
+        TextBox1.Enabled = False
+        TextBox2.Enabled = False
+        TextBox3.Enabled = False
+        TextBox4.Enabled = False
+        TextBox5.Enabled = False
+
+
         TextBox8.Visible = False
         TextBox9.Visible = False
+        Label10.Visible = False
+        Label9.Visible = False
         'PersonaBusca.Consultar(cedula)
 
         Try
@@ -101,6 +120,35 @@ Public Class Form4
     End Sub
 
     Private Sub TextBox9_TextChanged(sender As Object, e As EventArgs) Handles TextBox9.TextChanged
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        ComboBox2.Text = "CC"
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+        TextBox4.Text = ""
+        TextBox5.Text = ""
+        TextBox8.Text = ""
+        TextBox9.Text = ""
+
+        ComboBox2.Enabled = False
+        TextBox1.Enabled = False
+        TextBox2.Enabled = False
+        TextBox3.Enabled = False
+        TextBox4.Enabled = False
+        TextBox5.Enabled = False
+        TextBox8.Enabled = False
+        TextBox9.Enabled = False
+
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim ElimPersona As New Elimina()
+
+        ElimPersona.Show()
 
     End Sub
 End Class

@@ -105,7 +105,7 @@ Partial Class Form4
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(652, 270)
+        Me.Label6.Location = New System.Drawing.Point(650, 277)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(67, 17)
         Me.Label6.TabIndex = 31
@@ -115,7 +115,7 @@ Partial Class Form4
         '
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Button5.Location = New System.Drawing.Point(587, 256)
+        Me.Button5.Location = New System.Drawing.Point(585, 256)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(56, 41)
         Me.Button5.TabIndex = 30
@@ -148,18 +148,18 @@ Partial Class Form4
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label13.Location = New System.Drawing.Point(649, 186)
+        Me.Label13.Location = New System.Drawing.Point(649, 182)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(60, 17)
+        Me.Label13.Size = New System.Drawing.Size(59, 17)
         Me.Label13.TabIndex = 27
-        Me.Label13.Text = "Cancelar"
+        Me.Label13.Text = "Eliminar"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(650, 235)
+        Me.Label12.Location = New System.Drawing.Point(650, 232)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(35, 17)
         Me.Label12.TabIndex = 26
@@ -210,90 +210,90 @@ Partial Class Form4
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"TJ", "CC"})
-        Me.ComboBox2.Location = New System.Drawing.Point(388, 66)
+        Me.ComboBox2.Location = New System.Drawing.Point(310, 66)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(163, 27)
+        Me.ComboBox2.Size = New System.Drawing.Size(247, 27)
         Me.ComboBox2.TabIndex = 21
         '
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(388, 360)
+        Me.TextBox9.Location = New System.Drawing.Point(310, 360)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.PasswordChar = Global.Microsoft.VisualBasic.ChrW(46)
-        Me.TextBox9.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox9.Size = New System.Drawing.Size(247, 25)
         Me.TextBox9.TabIndex = 20
         '
         'TextBox8
         '
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(388, 327)
+        Me.TextBox8.Location = New System.Drawing.Point(310, 327)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.PasswordChar = Global.Microsoft.VisualBasic.ChrW(46)
-        Me.TextBox8.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox8.Size = New System.Drawing.Size(247, 25)
         Me.TextBox8.TabIndex = 18
         '
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(388, 293)
+        Me.TextBox7.Location = New System.Drawing.Point(310, 293)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox7.Size = New System.Drawing.Size(247, 25)
         Me.TextBox7.TabIndex = 17
         '
         'TextBox6
         '
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(388, 262)
+        Me.TextBox6.Location = New System.Drawing.Point(310, 262)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox6.Size = New System.Drawing.Size(247, 25)
         Me.TextBox6.TabIndex = 16
         '
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(388, 228)
+        Me.TextBox5.Location = New System.Drawing.Point(310, 228)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox5.Size = New System.Drawing.Size(247, 25)
         Me.TextBox5.TabIndex = 15
         '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(388, 194)
+        Me.TextBox4.Location = New System.Drawing.Point(310, 194)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox4.Size = New System.Drawing.Size(247, 25)
         Me.TextBox4.TabIndex = 14
         '
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(388, 162)
+        Me.TextBox3.Location = New System.Drawing.Point(310, 162)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox3.Size = New System.Drawing.Size(247, 25)
         Me.TextBox3.TabIndex = 13
         '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(388, 130)
+        Me.TextBox2.Location = New System.Drawing.Point(310, 130)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox2.Size = New System.Drawing.Size(247, 25)
         Me.TextBox2.TabIndex = 12
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(388, 97)
+        Me.TextBox1.Location = New System.Drawing.Point(310, 98)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(163, 25)
+        Me.TextBox1.Size = New System.Drawing.Size(247, 25)
         Me.TextBox1.TabIndex = 11
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(131, 66)
+        Me.Label11.Location = New System.Drawing.Point(44, 66)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(160, 21)
         Me.Label11.TabIndex = 10
@@ -303,7 +303,7 @@ Partial Class Form4
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(130, 360)
+        Me.Label10.Location = New System.Drawing.Point(43, 360)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(254, 21)
         Me.Label10.TabIndex = 9
@@ -313,7 +313,7 @@ Partial Class Form4
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(130, 327)
+        Me.Label9.Location = New System.Drawing.Point(43, 327)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(119, 21)
         Me.Label9.TabIndex = 8
@@ -323,7 +323,7 @@ Partial Class Form4
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(130, 291)
+        Me.Label8.Location = New System.Drawing.Point(43, 291)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(76, 21)
         Me.Label8.TabIndex = 7
@@ -333,7 +333,7 @@ Partial Class Form4
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(130, 260)
+        Me.Label7.Location = New System.Drawing.Point(43, 260)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(93, 21)
         Me.Label7.TabIndex = 6
@@ -343,7 +343,7 @@ Partial Class Form4
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(130, 97)
+        Me.Label5.Location = New System.Drawing.Point(43, 97)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(118, 21)
         Me.Label5.TabIndex = 4
@@ -353,7 +353,7 @@ Partial Class Form4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(130, 228)
+        Me.Label4.Location = New System.Drawing.Point(43, 228)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(171, 21)
         Me.Label4.TabIndex = 3
@@ -363,7 +363,7 @@ Partial Class Form4
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(130, 194)
+        Me.Label3.Location = New System.Drawing.Point(43, 194)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(151, 21)
         Me.Label3.TabIndex = 2
@@ -373,7 +373,7 @@ Partial Class Form4
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(130, 162)
+        Me.Label2.Location = New System.Drawing.Point(43, 162)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(166, 21)
         Me.Label2.TabIndex = 1
@@ -383,7 +383,7 @@ Partial Class Form4
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(130, 130)
+        Me.Label1.Location = New System.Drawing.Point(43, 130)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(146, 21)
         Me.Label1.TabIndex = 0
@@ -429,6 +429,7 @@ Partial Class Form4
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form4"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form4"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

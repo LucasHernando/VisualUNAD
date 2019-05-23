@@ -76,6 +76,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conector.vb" />
+    <Compile Include="CursosPersona.Designer.vb">
+      <DependentUpon>CursosPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CursosPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elimina.Designer.vb">
+      <DependentUpon>Elimina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Elimina.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +137,12 @@
     <Compile Include="Persona.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CursosPersona.resx">
+      <DependentUpon>CursosPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elimina.resx">
+      <DependentUpon>Elimina.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
