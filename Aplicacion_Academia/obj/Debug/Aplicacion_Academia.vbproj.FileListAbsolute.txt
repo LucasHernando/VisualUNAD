@@ -214,7 +214,6 @@ C:\Users\PC-DESARROLLO5\Desktop\Aplicacion_Academia\obj\Debug\Aplicacion_Academi
 C:\Users\PC-DESARROLLO5\Desktop\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.pdb
 C:\Users\PC-DESARROLLO5\Desktop\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.Elimina.resources
 C:\Users\PC-DESARROLLO5\Desktop\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.CursosPersona.resources
-<<<<<<< HEAD
 C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\bin\Debug\Aplicacion_Academia.exe.config
 C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\bin\Debug\Aplicacion_Academia.exe
 C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\bin\Debug\Aplicacion_Academia.pdb
@@ -247,5 +246,3 @@ C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\obj\Debug\Aplicacion_Acad
 C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.exe
 C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.xml
 C:\Users\lucas\OneDrive\Escritorio\Aplicacion_Academia\obj\Debug\Aplicacion_Academia.pdb
-=======
->>>>>>> 5897d9098a136f17c1f788f2fdc1125f3ba50606
