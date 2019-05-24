@@ -110,25 +110,25 @@ Partial Class CursosPersona
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(413, 72)
+        Me.Button3.Location = New System.Drawing.Point(456, 71)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Ingles 1"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(327, 71)
+        Me.Button2.Location = New System.Drawing.Point(346, 71)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(104, 23)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Realidad Virtual"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(195, 71)
+        Me.Button1.Location = New System.Drawing.Point(217, 71)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(123, 23)
         Me.Button1.TabIndex = 0
